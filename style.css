@@ -19,7 +19,21 @@
 }
 
 .done {
-  text-decoration: line-through;
+  color: green;
+  font-weight: bold;
+}
+
+li
+{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #3a3d47;
+  transition: color 0.5s;
+}
+
+li:hover
+{
+  color: red;
 }
 
 ul li button
